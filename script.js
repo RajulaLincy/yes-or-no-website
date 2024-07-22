@@ -25,7 +25,7 @@ let noTexts = [
 let noClickCount = 0;
 
 function handleYes() {
-    document.body.innerHTML = '<h1>Success!</h1>';
+    document.body.innerHTML = '<div style="text-align:center;"><h1>Success!</h1><img src="success.gif" alt="Success"></div>';
 }
 
 function handleNo() {
